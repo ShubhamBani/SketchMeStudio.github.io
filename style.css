@@ -157,7 +157,72 @@ body {
   cursor: pointer;
 }
 
+/*custom artwork responsive*/
 
+@media (max-width: 477px) {
+  #customart {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px 20px;
+  }
+  #customart .custom {
+    width: 100%;
+    margin-right: 0px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+  h6 {
+    font-weight: 600;
+    font-size: 12px;
+  }
+  #customart .custom-details {
+    width: 100%;
+    padding-top: 30px;
+  }
+  #customart .custom-details h4 {
+    padding: 18px 0 5px 0;
+  }
+  h4 {
+    font-size: 25px;
+  }
+  #customart .custom-details h2 {
+    font-size: 18px;
+  }
+  h2 {
+    font-size: 49px;
+    line-height: 20px;
+  }
+  #customart .custom-details .norm {
+    font-size: 18px;
+    padding: 8px 8px;
+    border-radius: 5px;
+    border: blueviolet;
+  }
+  h2 {
+    font-size: 40px;
+    line-height: 48px;
+  }
+  .section-p1 {
+    padding: 40px 20px;
+  }
+  p {
+    margin: 5px 0 0 0;
+  }
+  #product1 .pro-container {
+    display: flex;
+    padding-top: 20px;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+}
+
+/*artowork responsive*/
+@media (max-width: 477px) {
+  .section-p1 {
+  padding: 10px 15px;
+  }
+}
 
 /* about us page */
 
@@ -196,4 +261,21 @@ body {
 #about p {
   font-family: "Rajdhani";
   font-weight: 600;
+}
+
+/*about us page responsive*/
+@media (max-width: 477px) {
+  #about {
+    height: 100%;
+    width: 100%;
+  }
+  #about h2 {
+    font-size: 30px;
+    line-height: 28px;
+  }
+  #about h1 {
+    font-weight: 800;
+    font-size: 45px;
+    line-height: 40px;
+  }
 }
